@@ -6,20 +6,56 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>1088</width>
+    <height>595</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
+   <widget class="QListWidget" name="files_list">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>131</width>
+      <height>501</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="dir_btn">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>131</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Папка</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="left_btn">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>500</y>
+      <width>171</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Вліво</string>
+    </property>
+   </widget>
    <widget class="QPushButton" name="right_btn">
     <property name="geometry">
      <rect>
-      <x>230</x>
-      <y>370</y>
-      <width>75</width>
+      <x>180</x>
+      <y>500</y>
+      <width>171</width>
       <height>23</height>
      </rect>
     </property>
@@ -27,12 +63,12 @@
      <string>Вправо</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="mirrror_btn">
+   <widget class="QPushButton" name="mirror_brn">
     <property name="geometry">
      <rect>
-      <x>300</x>
-      <y>370</y>
-      <width>75</width>
+      <x>540</x>
+      <y>500</y>
+      <width>171</width>
       <height>23</height>
      </rect>
     </property>
@@ -43,9 +79,9 @@
    <widget class="QPushButton" name="sharp_btn">
     <property name="geometry">
      <rect>
-      <x>370</x>
-      <y>370</y>
-      <width>75</width>
+      <x>900</x>
+      <y>500</y>
+      <width>171</width>
       <height>23</height>
      </rect>
     </property>
@@ -56,59 +92,23 @@
    <widget class="QPushButton" name="bw_btn">
     <property name="geometry">
      <rect>
-      <x>440</x>
-      <y>370</y>
-      <width>75</width>
+      <x>720</x>
+      <y>500</y>
+      <width>171</width>
       <height>23</height>
      </rect>
     </property>
     <property name="text">
-     <string>ЧБ</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="left_btn">
-    <property name="geometry">
-     <rect>
-      <x>160</x>
-      <y>370</y>
-      <width>75</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Вліво</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="dir_btn">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>60</y>
-      <width>121</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Папка</string>
-    </property>
-   </widget>
-   <widget class="QListWidget" name="files_list">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>100</y>
-      <width>121</width>
-      <height>301</height>
-     </rect>
+     <string>Ч/Б</string>
     </property>
    </widget>
    <widget class="QLabel" name="photo_lb">
     <property name="geometry">
      <rect>
-      <x>160</x>
-      <y>230</y>
-      <width>47</width>
-      <height>13</height>
+      <x>170</x>
+      <y>32</y>
+      <width>821</width>
+      <height>411</height>
      </rect>
     </property>
     <property name="text">
@@ -116,6 +116,17 @@
     </property>
    </widget>
   </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1088</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources/>
  <connections/>
